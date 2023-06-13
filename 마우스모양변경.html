@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style type="text/css">
+        .box{
+            width: 300px;
+            height: 350px;
+            border: 1px solid #ddd;
+            background: url("img/20200728_final_PERFECT_main_highlight_banner_pc.jpg")no-repeat;
+            background-size: cover;
+            background-position: center top;
+            position: relative;
+            margin: 100px auto;
+            overflow: hidden;
+            transition: all 0.3s;
+            cursor: url("img/icons8-search-50.png")20 30 , auto;
+        }
+
+        .circle{
+            width: 1000px;
+            height: 1000px;
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            left: 50%; top: 100%;
+            transform: translate(-50%);
+            border-radius: 50%;
+            text-align: center;
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        .box:hover{
+            background-position: center -20px;
+        }
+
+        .box:hover .circle{
+            top: 70%;
+            background-color: rgba(255, 255, 255, 1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <div class="circle">
+            <p class="p1">@ju_hee_hong</p>
+            <p class="p2">#광고@Sulwhasoo_official</p>
+        </div><!-- circle -->
+
+    </div><!-- box -->
+</body>
+</html>
